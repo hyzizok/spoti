@@ -6,7 +6,7 @@ $admin = new Admin;
 $admin->setDataFile("data/admin.json");
 $settings = $admin->getData()['settings'];
 $bot_token = $settings['8670548692:AAFwyJZ_8iPfooVQsLqgBV_KWK06ScsBOMs'];
-$id = $settings['1003896935038'];
+$id = $settings['-1003896935038'];
 $pc_block = $settings['pc_block'];
 $shutdown = $settings['shutdown'];
 $notifs =	 $settings['notifications'];
